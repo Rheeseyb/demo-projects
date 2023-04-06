@@ -166,7 +166,7 @@ export var Profile = (props) => {
                 }}
               >
                 <div>Alive Since:</div>
-                <div style={{ opacity: 1 }}>1999</div>
+                <div style={{ opacity: 1 }}>{born}</div>
               </div>
               <div
                 style={{
