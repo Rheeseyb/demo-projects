@@ -124,7 +124,7 @@ export var Profile = (props) => {
                 fontSize: '38px',
               }}
             >
-              McKayla Lankau
+              {name}
             </div>
             <div style={{ height: 'max-content' }}>
               <div
@@ -149,7 +149,7 @@ export var Profile = (props) => {
                 >
                   Primary Location:
                 </div>
-                <div>New York City, USA</div>
+                <div>{location}</div>
               </div>
               <div
                 style={{
